@@ -1,5 +1,10 @@
+const db = require('./connection')
+const { Location } = require('../models')
+
 const axios = require('axios')
 const cheerio = require('cheerio')
+const fs = require('fs')
+const path = require('path')
 
 const url = 'https://www.officialusa.com/stateguides/health/hospitals/northcarolina.html'
 
@@ -25,8 +30,17 @@ axios(url, { headers : {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
       address,
       city
     })
-  })
+  });
+  const directoryPath = path.join(__dirname, 'data');
+  const filePath = path.join(directoryPath, 'test.json')
+
+  fs.mkdirSync(directoryPath, { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(hospitalInfo, null, 2))
+
+  console.log('Data has been saved')
+
     console.log(hospitalInfo)
   }).catch(error => {
     console.log('Error:', error)
 })
+
