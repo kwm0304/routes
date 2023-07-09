@@ -11,7 +11,7 @@ const customerSchema = new Schema({
     type: String,
     required: true
   },
-  products: [productSchema],
+  order: [orderSchema],
   location: locationSchema
 })
 
