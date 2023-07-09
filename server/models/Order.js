@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose;
 
-const ordeSchema = new Schema({
+const orderSchema = new Schema({
   products: [productSchema],
   orderId: {type: String, required: true }
 })
