@@ -1,19 +1,21 @@
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
-const cheerio = require('cheerio');
-const db = require('./connection');
-const { Location, Product } = require('../models');
+const fs = require("fs");
+const path = require("path");
+const axios = require("axios");
+const cheerio = require("cheerio");
+const db = require("./connection");
+const { Location, Product } = require("../models");
 
 const scrapeAndSaveData = async () => {
   try {
     await Location.deleteMany();
 
-    const url = 'https://www.officialusa.com/stateguides/health/hospitals/northcarolina.html';
+    const url =
+      "https://www.officialusa.com/stateguides/health/hospitals/northcarolina.html";
 
     const response = await axios.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
       },
     });
 
@@ -21,11 +23,11 @@ const scrapeAndSaveData = async () => {
     const $ = cheerio.load(html);
     const hospitalInfo = [{}];
 
-    $('tr').each((index, element) => {
+    $("tr").each((index, element) => {
       const $row = $(element);
-      const $firstCell = $row.find('td:first-child');
-      const $secondCell = $row.find('td:nth-child(2)');
-      const $fourthCell = $row.find('td:nth-child(4)');
+      const $firstCell = $row.find("td:first-child");
+      const $secondCell = $row.find("td:nth-child(2)");
+      const $fourthCell = $row.find("td:nth-child(4)");
 
       const city = $firstCell.text().trim();
       const title = $secondCell.text().trim();
@@ -37,29 +39,108 @@ const scrapeAndSaveData = async () => {
         city: city,
         state: "NC",
       };
-      hospitalInfo.push(locationEntry)
-      console.log(hospitalInfo)
+      hospitalInfo.push(locationEntry);
+      
     });
 
-    const filePath = path.join(__dirname, 'locations.json');
+    const filePath = path.join(__dirname, "locations.json");
     fs.writeFileSync(filePath, JSON.stringify(hospitalInfo, null, 2));
-    console.log('Data has been saved:', hospitalInfo);
+    console.log("Data has been saved:", hospitalInfo);
 
     await Location.insertMany(hospitalInfo);
-    console.log('Locations collection saved.');
+    console.log("Locations collection saved.");
 
     await Product.deleteMany();
 
     const products = await Product.insertMany([
-      // Product data array goes here
+      {
+        productName: "Hospital Bed Sheets",
+        price: 19.99,
+        productQuantity: 100,
+      },
+      {
+        productName: "Pillowcases",
+        price: 7.99,
+        productQuantity: 150,
+      },
+      {
+        productName: "Patient Gowns",
+        price: 24.99,
+        productQuantity: 75,
+      },
+      {
+        productName: "Bath Towels",
+        price: 12.99,
+        productQuantity: 200,
+      },
+      {
+        productName: "Hand Towels",
+        price: 6.99,
+        productQuantity: 250,
+      },
+      {
+        productName: "Washcloths",
+        price: 4.99,
+        productQuantity: 300,
+      },
+      {
+        productName: "Mattress Protectors",
+        price: 29.99,
+        productQuantity: 50,
+      },
+      {
+        productName: "Pillow Protectors",
+        price: 9.99,
+        productQuantity: 100,
+      },
+      {
+        productName: "Blankets",
+        price: 39.99,
+        productQuantity: 80,
+      },
+      {
+        productName: "Bedspreads",
+        price: 49.99,
+        productQuantity: 60,
+      },
+      {
+        productName: "Pillows",
+        price: 14.99,
+        productQuantity: 120,
+      },
+      {
+        productName: "Draw Sheets",
+        price: 17.99,
+        productQuantity: 90,
+      },
+      {
+        productName: "Underpads",
+        price: 11.99,
+        productQuantity: 100,
+      },
+      {
+        productName: "Gauze Rolls",
+        price: 8.99,
+        productQuantity: 200,
+      },
+      {
+        productName: "Surgical Drapes",
+        price: 29.99,
+        productQuantity: 80,
+      },
+      {
+        productName: "Pillow Covers",
+        price: 6.99,
+        productQuantity: 150,
+      }
     ]);
-    console.log('Products seeded');
+    console.log("Products seeded");
   } catch (error) {
-    console.log('Error:', error);
+    console.log("Error:", error);
   } finally {
     db.close();
     process.exit();
   }
 };
 
-db.once('open', scrapeAndSaveData);
+db.once("open", scrapeAndSaveData);
