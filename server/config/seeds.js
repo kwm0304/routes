@@ -6,6 +6,9 @@ const cheerio = require('cheerio')
 const fs = require('fs')
 const path = require('path')
 
+db.once('open', async () => {
+  await Location.deleteMany();
+//scraper
 const url = 'https://www.officialusa.com/stateguides/health/hospitals/northcarolina.html'
 
 axios(url, { headers : {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'}}
@@ -31,10 +34,9 @@ axios(url, { headers : {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
       city
     })
   });
-  const directoryPath = path.join(__dirname, 'data');
-  const filePath = path.join(directoryPath, 'test.json')
+  //logging in json folder for reference
+  const filePath = path.join(__dirname, 'locations.json')
 
-  fs.mkdirSync(directoryPath, { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(hospitalInfo, null, 2))
 
   console.log('Data has been saved')
@@ -43,4 +45,13 @@ axios(url, { headers : {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
   }).catch(error => {
     console.log('Error:', error)
 })
-
+//logging to db
+const locations = await Location.insertMany(hospitalInfo)
+  .then(() => {
+    console.log('Locations collection saved.')
+  })
+  .catch(error => {
+    console.log("error", error)
+  })
+  process.exit()
+})
