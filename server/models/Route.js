@@ -12,7 +12,10 @@ const routeSchema = new Schema({
     type: Number,
     required: true
   },
-  customers: [customerSchema]
+  customers: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Customer'
+  }]
 
 })
 

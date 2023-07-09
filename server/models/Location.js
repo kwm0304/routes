@@ -5,19 +5,9 @@ const { Schema } = mongoose;
 
 const locationSchema = new Schema({
   
-  address: {
-    city: {type: String, required: true},
-    state: {type: String, required: true},
-    zip: {type: Number, requird: true}
-  },
-  longitude: {
-    type: Number,
-    required: true
-  },
-  latitude: {
-    type: Number,
-    required: true
-  }
+  address: {type: String},
+  title: {type: String},
+  city: {type: String}
 })
 
 const Location = mongoose.model('Location', locationSchema);

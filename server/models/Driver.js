@@ -12,7 +12,7 @@ const driverSchema = new Schema({
     type: Number,
     required: true
   },
-  route: RouteSchema
+  route: {type: Schema.Types.ObjectId, ref: 'Route'}
 })
 
 const Driver = mongoose.model("Driver", driverSchema)

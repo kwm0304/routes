@@ -1,0 +1,957 @@
+[
+  {},
+  {
+    "title": "",
+    "address": "",
+    "city": "",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANT BERTIE HOSPITAL",
+    "address": "1403 SOUTH KING STREET",
+    "city": "WINDSOR",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH THOMASVILLE MEDICAL CENTER",
+    "address": "207 OLD LEXINGTON ROAD",
+    "city": "THOMASVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANT CHOWAN HOSPITAL",
+    "address": "211 VIRGINIA ROAD",
+    "city": "EDENTON",
+    "state": "NC"
+  },
+  {
+    "title": "DUKE REGIONAL HOSPITAL",
+    "address": "3643 NORTH ROXBORO RD",
+    "city": "DURHAM",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS REHABILITATION - MOUNT HOLLY",
+    "address": "275 BEATTY DRIVE",
+    "city": "BELMONT",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS MEDICAL CENTER",
+    "address": "1000 BLYTHE BOULEVARD",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "PARK RIDGE HOSPITAL",
+    "address": "100 HOSPITAL DRIVE",
+    "city": "HENDERSONVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "KINDRED HOSPITAL - GREENSBORO",
+    "address": "2401 SOUTHSIDE BLVD",
+    "city": "GREENSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "WILSON MEDICAL CENTER",
+    "address": "1705 TARBORO ST. SW",
+    "city": "WILSON",
+    "state": "NC"
+  },
+  {
+    "title": "YADKIN VALLEY COMMUNITY HOSPITAL",
+    "address": "624 WEST MAIN ST",
+    "city": "YADKINVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "TRANSYLVANIA COMMUNITY HOSPITAL, INC. AND BRIDGEWAY",
+    "address": "P O BOX 1116",
+    "city": "BREVARD",
+    "state": "NC"
+  },
+  {
+    "title": "SWAIN COMMUNITY HOSPITAL",
+    "address": "45 PLATEAU ST",
+    "city": "BRYSON CITY",
+    "state": "NC"
+  },
+  {
+    "title": "LIFEBRITE COMMUNITY HOSPITAL OF STOKES",
+    "address": "1570 NC 8 & 89 HWY NORTH",
+    "city": "DANBURY",
+    "state": "NC"
+  },
+  {
+    "title": "BRUNSWICK COMMUNITY HOSPITAL",
+    "address": "240 HOSPITAL DRIVE NE",
+    "city": "BOLIVIA",
+    "state": "NC"
+  },
+  {
+    "title": "COLUMBUS REGIONAL HEALTHCARE SYSTEM",
+    "address": "500 JEFFERSON ST",
+    "city": "WHITEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "ALEXANDER HOSPITAL",
+    "address": "PO BOX 2568",
+    "city": "HICKORY",
+    "state": "NC"
+  },
+  {
+    "title": "HOLLY HILL HOSPITAL",
+    "address": "3019 FALSTAFF RD",
+    "city": "RALEIGH",
+    "state": "NC"
+  },
+  {
+    "title": "DAVIE MEDICAL CENTER",
+    "address": "MEDICAL CENTER BLVD",
+    "city": "BERMUDA RUN",
+    "state": "NC"
+  },
+  {
+    "title": "STRATEGIC BEHAVIORAL CENTER LELAND",
+    "address": "2050 MERCANTILE DRIVE",
+    "city": "LELAND",
+    "state": "NC"
+  },
+  {
+    "title": "VERITAS COLLABORATIVE NORTH CAROLINA LLC",
+    "address": "615 DOUGLAS STREET",
+    "city": "DURHAM",
+    "state": "NC"
+  },
+  {
+    "title": "OLD VINEYARD YOUTH SERVICES",
+    "address": "3637 OLD VINEYARD ROAD",
+    "city": "WINSTON SALEM",
+    "state": "NC"
+  },
+  {
+    "title": "WOMENS HOSPITAL",
+    "address": "801 GREEN VALLEY ROAD",
+    "city": "GREENSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "BEHAVIORAL HEALTH HOSPITAL",
+    "address": "700 WALTER REED DRIVE",
+    "city": "GREENSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "GOOD HOPE HOSPITAL",
+    "address": "P.O. BOX 639",
+    "city": "ERWIN",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS MEDICAL CENTER FOR MENTAL HEALTH",
+    "address": "501 BILLINGSLEY RD",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "STRATEGIC BEHAVIORAL CENTER CHARLOTTE",
+    "address": "1715 SHARON ROAD WEST",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "BRYNN MARR HOSPITAL",
+    "address": "192 VILLAGE DR",
+    "city": "JACKSONVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "STRATEGIC BEHAVIORAL CENTER GARNER",
+    "address": "3200 WATERFIELD ROAD",
+    "city": "GARNER",
+    "state": "NC"
+  },
+  {
+    "title": "UNC HOSPITALS AT WAKEBROOK",
+    "address": "111 SUNNYBROOK ROAD",
+    "city": "RALEIGH",
+    "state": "NC"
+  },
+  {
+    "title": "UNITY HEALING CENTER",
+    "address": "448 SEQUOYAH TRAIL DR",
+    "city": "CHEROKEE",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINA CONTINUECARE AT UNIVERSITY",
+    "address": "8800 NORTH TRYON ST, 4TH FLOOR",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINA CONTINUECARE AT PINEVILLE",
+    "address": "10648 PARK ROAD, 3RD FLOOR",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "SELECT SPECIALTY HOSPITAL - WINSTON SALEM",
+    "address": "3333 SILAS CREEK PARKWAY, 6TH FLOOR",
+    "city": "WINSTON SALEM",
+    "state": "NC"
+  },
+  {
+    "title": "SELECT SPECIALTY HOSPITAL - DURHAM",
+    "address": "3643 NORTH ROXBORO STREET, 6TH FLOOR",
+    "city": "DURHAM",
+    "state": "NC"
+  },
+  {
+    "title": "NAVAL HEALTH CLINIC CHERRY POINT",
+    "address": "BEAUFORT ROAD, BUILDING 4385",
+    "city": "CHERRY POINT",
+    "state": "NC"
+  },
+  {
+    "title": "PENDER MEMORIAL HOSPITAL, INC.",
+    "address": "507 E FREMONT STREET",
+    "city": "BURGAW",
+    "state": "NC"
+  },
+  {
+    "title": "LIFECARE HOSPITALS OF NORTH CAROLINA",
+    "address": "1051 NOELL LANE",
+    "city": "ROCKY MOUNT",
+    "state": "NC"
+  },
+  {
+    "title": "NORTH CAROLINA SPECIALTY HOSPITAL",
+    "address": "3916 BEN FRANKLIN BOULEVARD",
+    "city": "DURHAM",
+    "state": "NC"
+  },
+  {
+    "title": "LAKE NORMAN REGIONAL MEDICAL CENTER",
+    "address": "171 FAIRVIEW ROAD",
+    "city": "MOORESVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "NASH GENERAL HOSPITAL",
+    "address": "2460 CURTIS ELLIS DR.",
+    "city": "ROCKY MOUNT",
+    "state": "NC"
+  },
+  {
+    "title": "NEW HANOVER REGIONAL MEDICAL CENTER",
+    "address": "2228 S. 17TH STREET/FISCAL SERVICES",
+    "city": "WILMINGTON",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH PRESBYTERIAN MEDICAL CENTER",
+    "address": "200 HAWTHORNE LANE",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANT BEAUFORT HOSPITAL",
+    "address": "628 EAST TWELFTH ST",
+    "city": "WASHINGTON",
+    "state": "NC"
+  },
+  {
+    "title": "VALDESE GENERAL HOSPITAL, INC.",
+    "address": "720 MALCOLM BOULEVARD",
+    "city": "VALDESE",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANTE EDGECOMBE HOSPITAL",
+    "address": "111 HOSPITAL DR",
+    "city": "TARBORO",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM UNIVERSITY",
+    "address": "8800 NORTH TRYON STREET",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "BETSY JOHNSON HOSPITAL",
+    "address": "800 TILGHMAN DR",
+    "city": "DUNN",
+    "state": "NC"
+  },
+  {
+    "title": "HALIFAX REGIONAL MEDICAL CENTER",
+    "address": "250 SMITH CHURCH ROAD",
+    "city": "ROANOKE RAPIDS",
+    "state": "NC"
+  },
+  {
+    "title": "DUKE HEALTH RALEIGH HOSPITAL",
+    "address": "3400 WAKE FOREST ROAD",
+    "city": "RALEIGH",
+    "state": "NC"
+  },
+  {
+    "title": "WAKEMED CARY HOSPITAL",
+    "address": "1900 KILDAIRE FARM RD.",
+    "city": "CARY",
+    "state": "NC"
+  },
+  {
+    "title": "CARTERET GENERAL HOSPITAL",
+    "address": "3500 ARENDELL STREET",
+    "city": "MOREHEAD CITY",
+    "state": "NC"
+  },
+  {
+    "title": "FRYE REGIONAL MEDICAL CENTER",
+    "address": "420 NORTH CENTER ST",
+    "city": "HICKORY",
+    "state": "NC"
+  },
+  {
+    "title": "RUTHERFORD HOSPITAL, INC.",
+    "address": "288 SOUTH RIDGECREST AVE.",
+    "city": "RUTHERFORDTON",
+    "state": "NC"
+  },
+  {
+    "title": "SAMPSON REGIONAL MEDICAL CENTER",
+    "address": "607 BEAMAN STREET",
+    "city": "CLINTON",
+    "state": "NC"
+  },
+  {
+    "title": "PUNGO DISTRICT HOSPITAL CORPORATION",
+    "address": "202 EAST WATER ST",
+    "city": "BELHAVEN",
+    "state": "NC"
+  },
+  {
+    "title": "CALDWELL MEMORIAL HOSPITAL",
+    "address": "321 MULBERRY STREET SW",
+    "city": "LENOIR",
+    "state": "NC"
+  },
+  {
+    "title": "DAVIE COUNTY HOSPITAL",
+    "address": "223 HOSPITAL STREET",
+    "city": "MOCKSVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "HIGHSMITH-RAINEY MEMORIAL HOSPITAL",
+    "address": "150 ROBESON STREET",
+    "city": "FAYETTEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "LEXINGTON MEMORIAL HOSPITAL",
+    "address": "250 HOSPITAL DRIVE",
+    "city": "LEXINGTON",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINA EAST HEALTH SYSTEM",
+    "address": "2000 NEUSE BLVD",
+    "city": "NEW BERN",
+    "state": "NC"
+  },
+  {
+    "title": "CHEROKEE INDIAN HOSPITAL AUTHORITY",
+    "address": "1 HOSPITAL ROAD",
+    "city": "CHEROKEE",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM STANLY",
+    "address": "301 YADKIN STREET",
+    "city": "ALBEMARLE",
+    "state": "NC"
+  },
+  {
+    "title": "MARTIN GENERAL HOSPITAL",
+    "address": "310 SOUTH MCCASKEY ROAD",
+    "city": "WILLIAMSTON",
+    "state": "NC"
+  },
+  {
+    "title": "ASHEVILLE SPECIALTY HOSPITAL",
+    "address": "428 BILTMORE AVE",
+    "city": "ASHEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "WILKES REGIONAL MEDICAL CENTER",
+    "address": "1370 WEST 'D' STREET",
+    "city": "NORTH WILKESBORO",
+    "state": "NC"
+  },
+  {
+    "title": "FIRSTHEALTH MOORE REG. HOSP. AND PINEHURST TREATMENT",
+    "address": "155 MEMORIAL DRIVE",
+    "city": "PINEHURST",
+    "state": "NC"
+  },
+  {
+    "title": "WASHINGTON COUNTY HOSPITAL",
+    "address": "958 U S HIGHWAY 64 EAST",
+    "city": "PLYMOUTH",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH HUNTERSVILLE MEDICAL CENTER",
+    "address": "10030 GILEAD ROAD",
+    "city": "HUNTERSVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH MATTHEWS MEDICAL CENTER",
+    "address": "1500 MATTHEWS TOWNSHIP PARKWAY",
+    "city": "MATTHEWS",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HOSPITAL CHARLOTTE ORTHOPEDIC HOSPITAL",
+    "address": "1901 RANDOLPH RD",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH ROWAN MEDICAL CENTER",
+    "address": "612 MOCKSVILLE AVE",
+    "city": "SALISBURY",
+    "state": "NC"
+  },
+  {
+    "title": "CAPE FEAR VALLEY - BLADEN COUNTY HOSPITAL",
+    "address": "501 SOUTH POPLAR STREET",
+    "city": "ELIZABETHTOWN",
+    "state": "NC"
+  },
+  {
+    "title": "SENTARA ALBEMARLE MEDICAL CENTER",
+    "address": "1144 NORTH ROAD STREET",
+    "city": "ELIZABETH CITY",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM KINGS MOUNTAIN",
+    "address": "706 WEST KING STREET",
+    "city": "KINGS MOUNTAIN",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANT DUPLIN HOSPITAL",
+    "address": "401 NORTH MAIN ST",
+    "city": "KENANSVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH MEDICAL PARK HOSPITAL",
+    "address": "1950 SOUTH HAWTHORNE RD",
+    "city": "WINSTON SALEM",
+    "state": "NC"
+  },
+  {
+    "title": "JOHNSTON MEDICAL CENTER - SMITHFIELD",
+    "address": "509 N. BRIGHT LEAF BLVD.",
+    "city": "SMITHFIELD",
+    "state": "NC"
+  },
+  {
+    "title": "MCDOWELL HOSPITAL",
+    "address": "430 RANKIN DRIVE",
+    "city": "MARION",
+    "state": "NC"
+  },
+  {
+    "title": "MARGARET R. PARDEE MEMORIAL HOSPITAL",
+    "address": "800 NORTH JUSTICE STREET",
+    "city": "HENDERSONVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "HAYWOOD REGIONAL MEDICAL CENTER",
+    "address": "262 LEROY GEORGE DRIVE",
+    "city": "CLYDE",
+    "state": "NC"
+  },
+  {
+    "title": "OUR COMMUNITY HOSPITAL",
+    "address": "921 JUNIOR HIGH ROAD",
+    "city": "SCOTLAND NECK",
+    "state": "NC"
+  },
+  {
+    "title": "HIGH POINT REGIONAL HEALTH SYSTEM",
+    "address": "601 NORTH ELM STREET",
+    "city": "HIGH POINT",
+    "state": "NC"
+  },
+  {
+    "title": "DAVIS REGIONAL MEDICAL CENTER",
+    "address": "218 OLD MOCKSVILLE ROAD",
+    "city": "STATESVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "IREDELL MEMORIAL HOSPITAL, INCORPORATED",
+    "address": "557 BROOKDALE DRIVE",
+    "city": "STATESVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANT ROANOKE-CHOWAN HOSPITAL",
+    "address": "500 SOUTH ACADEMY STREET",
+    "city": "AHOSKIE",
+    "state": "NC"
+  },
+  {
+    "title": "BLOWING ROCK HOSPITAL",
+    "address": "418 CHESTNUT STREET",
+    "city": "BLOWING ROCK",
+    "state": "NC"
+  },
+  {
+    "title": "ANSON COMMUNITY HOSPITAL",
+    "address": "500 MORVEN RD",
+    "city": "WADESBORO",
+    "state": "NC"
+  },
+  {
+    "title": "PERSON MEMORIAL HOSPITAL",
+    "address": "615 RIDGE RD",
+    "city": "ROXBORO",
+    "state": "NC"
+  },
+  {
+    "title": "CHATHAM HOSPITAL, INC.",
+    "address": "475 PROGRESS BOULEVARD",
+    "city": "SILER CITY",
+    "state": "NC"
+  },
+  {
+    "title": "MURPHY MEDICAL CENTER",
+    "address": "3990 EAST US HWY 64",
+    "city": "MURPHY",
+    "state": "NC"
+  },
+  {
+    "title": "SOUTHEASTERN REGIONAL MEDICAL CENTER",
+    "address": "300 WEST 27TH ST",
+    "city": "LUMBERTON",
+    "state": "NC"
+  },
+  {
+    "title": "CHARLES A. CANNON, JR. MEMORIAL HOSPITAL",
+    "address": "434 HOSPITAL DRIVE",
+    "city": "LINVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "J. ARTHUR DOSHER MEMORIAL HOSPITAL",
+    "address": "924 HOWE ST",
+    "city": "SOUTHPORT",
+    "state": "NC"
+  },
+  {
+    "title": "CAREPARTNERS REHABILITATION HOSPITAL",
+    "address": "68 SWEETEN CREEK ROAD",
+    "city": "ASHEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM BLUE RIDGE",
+    "address": "2201 SOUTH STERLING ST",
+    "city": "MORGANTON",
+    "state": "NC"
+  },
+  {
+    "title": "CAPE FEAR VALLEY MEDICAL CENTER",
+    "address": "1638 OWEN DRIVE",
+    "city": "FAYETTEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "KERNERSVILLE MEDICAL CENTER-ER",
+    "address": "1750 KERNERSVILLE MEDICAL PKWY",
+    "city": "KERNERSVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM - ANSON",
+    "address": "2301 US HIGHWAY 74 WEST",
+    "city": "WADESBORO",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS CONTINUECARE AT KINGS MOUNTAIN",
+    "address": "706 WEST KING STREET",
+    "city": "KINGS MOUNTAIN",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS REHABILITATION - NORTHEAST",
+    "address": "487 LAKE CONCORD ROAD",
+    "city": "CONCORD",
+    "state": "NC"
+  },
+  {
+    "title": "FIRSTHEALTH MOORE REGIONAL HOSPITAL - HOKE CAMPUS",
+    "address": "6408 FAYETTEVILLE ROAD",
+    "city": "RAEFORD",
+    "state": "NC"
+  },
+  {
+    "title": "SELECT SPECIALTY HOSPITAL - GREENSBORO",
+    "address": "1200 NORTH ELM STREET",
+    "city": "GREENSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH FORSYTH MEDICAL CENTER",
+    "address": "3333 SILAS CREEK PKWY",
+    "city": "WINSTON SALEM",
+    "state": "NC"
+  },
+  {
+    "title": "FRANKLIN REGIONAL MEDICAL CENTER",
+    "address": "100 HOSPITAL DRIVE",
+    "city": "LOUISBURG",
+    "state": "NC"
+  },
+  {
+    "title": "CENTRAL CAROLINA HOSPITAL",
+    "address": "1135 CARTHAGE ST",
+    "city": "SANFORD",
+    "state": "NC"
+  },
+  {
+    "title": "GRANVILLE HEALTH SYSTEM",
+    "address": "1010 COLLEGE STREET",
+    "city": "OXFORD",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS MEDICAL CENTER-MERCY",
+    "address": "2001 VAIL AVE",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM PINEVILLE",
+    "address": "10628 PARK RD",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "ANGEL MEDICAL CENTER",
+    "address": "120 RIVERVIEW STREET",
+    "city": "FRANKLIN",
+    "state": "NC"
+  },
+  {
+    "title": "HIGHLANDS-CASHIERS HOSPITAL",
+    "address": "190 HOSPITAL DRIVE",
+    "city": "HIGHLANDS",
+    "state": "NC"
+  },
+  {
+    "title": "WESLEY LONG COMMUNITY HOSPITAL",
+    "address": "501 N ELAM AVENUE",
+    "city": "GREENSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "HARRIS REGIONAL HOSPITAL",
+    "address": "68 HOSPITAL RD",
+    "city": "SYLVA",
+    "state": "NC"
+  },
+  {
+    "title": "WAYNE MEMORIAL HOSPITAL",
+    "address": "2700 WAYNE MEMORIAL DRIVE",
+    "city": "GOLDSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "MARIA PARHAM MEDICAL CENTER",
+    "address": "566 RUIN CREEK ROAD",
+    "city": "HENDERSON",
+    "state": "NC"
+  },
+  {
+    "title": "WATAUGA MEDICAL CENTER, INC.",
+    "address": "336 DEERFIELD ROAD",
+    "city": "BOONE",
+    "state": "NC"
+  },
+  {
+    "title": "NORTHERN HOSPITAL OF SURRY COUNTY",
+    "address": "830 ROCKFORD STREET",
+    "city": "MOUNT AIRY",
+    "state": "NC"
+  },
+  {
+    "title": "HUGH CHATHAM MEMORIAL HOSPITAL, INC.",
+    "address": "180 PARKWOOD DRIVE",
+    "city": "ELKIN",
+    "state": "NC"
+  },
+  {
+    "title": "ALLEGHANY MEMORIAL HOSPITAL",
+    "address": "233 DOCTORS STREET",
+    "city": "SPARTA",
+    "state": "NC"
+  },
+  {
+    "title": "ALAMANCE REGIONAL MEDICAL CENTER",
+    "address": "1240 HUFFMAN MILL ROAD",
+    "city": "BURLINGTON",
+    "state": "NC"
+  },
+  {
+    "title": "ASHE MEMORIAL HOSPITAL, INC.",
+    "address": "200 HOSPITAL AVE.",
+    "city": "JEFFERSON",
+    "state": "NC"
+  },
+  {
+    "title": "ST. LUKES HOSPITAL",
+    "address": "101 HOSPITAL DRIVE",
+    "city": "COLUMBUS",
+    "state": "NC"
+  },
+  {
+    "title": "CATAWBA VALLEY MEDICAL CENTER",
+    "address": "810 FAIRGROVE CHURCH ROAD",
+    "city": "HICKORY",
+    "state": "NC"
+  },
+  {
+    "title": "SCOTLAND MEMORIAL HOSPITAL AND EDWIN MORGAN CENTER",
+    "address": "500 LAUCHWOOD DRIVE",
+    "city": "LAURINBURG",
+    "state": "NC"
+  },
+  {
+    "title": "BLUE RIDGE REGIONAL HOSPITAL, INC",
+    "address": "125 HOSPITAL DRIVE",
+    "city": "SPRUCE PINE",
+    "state": "NC"
+  },
+  {
+    "title": "FIRSTHEALTH MONTGOMERY MEMORIAL HOSPITAL",
+    "address": "520 ALLEN STREET",
+    "city": "TROY",
+    "state": "NC"
+  },
+  {
+    "title": "THE OUTER BANKS HOSPITAL",
+    "address": "4800 SOUTH CROATAN HIGHWAY",
+    "city": "NAGS HEAD",
+    "state": "NC"
+  },
+  {
+    "title": "ONSLOW MEMORIAL HOSPITAL",
+    "address": "317 WESTERN BOULEVARD",
+    "city": "JACKSONVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "CRAWLEY MEMORIAL HOSPITAL",
+    "address": "315 WEST COLLEGE AVENUE",
+    "city": "SHELBY",
+    "state": "NC"
+  },
+  {
+    "title": "NAVAL HOSPITAL CAMP LEJEUNE",
+    "address": "100 BREWSTER BLVD",
+    "city": "CAMP LEJEUNE",
+    "state": "NC"
+  },
+  {
+    "title": "WOMACK ARMY MEDICAL CENTER",
+    "address": "2817 REILLY RD",
+    "city": "FORT BRAGG",
+    "state": "NC"
+  },
+  {
+    "title": "VA MEDICAL CENTER - DURHAM",
+    "address": "508 FULTON ST",
+    "city": "DURHAM",
+    "state": "NC"
+  },
+  {
+    "title": "VA MEDICAL CENTER - FAYETTEVILLE",
+    "address": "2300 RAMSEY ST",
+    "city": "FAYETTEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "CHARLES GEORGE VA MEDICAL CENTER",
+    "address": "1100 TUNNEL RD",
+    "city": "ASHEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "W. G. (BILL) HEFNER VA MEDICAL CENTER",
+    "address": "1601 BRENNER AVE",
+    "city": "SALISBURY",
+    "state": "NC"
+  },
+  {
+    "title": "NOVANT HEALTH BRUNSWICK MEDICAL CENTER",
+    "address": "240 HOSPITAL DR NE",
+    "city": "BOLIVIA",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS MEDICAL CENTER-LINCOLN",
+    "address": "433 MCALISTER ROAD",
+    "city": "LINCOLNTON",
+    "state": "NC"
+  },
+  {
+    "title": "CAROMONT REGIONAL MEDICAL CENTER",
+    "address": "2525 COURT DRIVE",
+    "city": "GASTONIA",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM CLEVELAND",
+    "address": "201 EAST GROVER ST",
+    "city": "SHELBY",
+    "state": "NC"
+  },
+  {
+    "title": "NEW HANOVER REGIONAL MEDICAL CENTER ORTHOPEDIC HOSPITAL",
+    "address": "5301 WRIGHTSVILLE AVE",
+    "city": "WILMINGTON",
+    "state": "NC"
+  },
+  {
+    "title": "DUKE UNIVERSITY HOSPITAL",
+    "address": "2301 ERWIN ROAD",
+    "city": "DURHAM",
+    "state": "NC"
+  },
+  {
+    "title": "NORTH CAROLINA BAPTIST HOSPITAL",
+    "address": "MEDICAL CENTER BLVD",
+    "city": "WINSTON SALEM",
+    "state": "NC"
+  },
+  {
+    "title": "UNC LENOIR HEALTH CARE",
+    "address": "100 AIRPORT ROAD",
+    "city": "KINSTON",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS REHABILITATION",
+    "address": "1100 BLYTHE BLVD",
+    "city": "CHARLOTTE",
+    "state": "NC"
+  },
+  {
+    "title": "MOSES CONE MEMORIAL HOSPITAL",
+    "address": "1200 NORTH ELM ST",
+    "city": "GREENSBORO",
+    "state": "NC"
+  },
+  {
+    "title": "REX HOSPITAL",
+    "address": "4420 LAKE BOONE TRAIL",
+    "city": "RALEIGH",
+    "state": "NC"
+  },
+  {
+    "title": "WAKEMED",
+    "address": "3000 NEW BERN AVENUE",
+    "city": "RALEIGH",
+    "state": "NC"
+  },
+  {
+    "title": "WAKEMED NORTH",
+    "address": "10000 FALLS OF NEUSE ROAD",
+    "city": "RALEIGH",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM UNION",
+    "address": "600 HOSPITAL DRIVE",
+    "city": "MONROE",
+    "state": "NC"
+  },
+  {
+    "title": "VIDANT MEDICAL CENTER",
+    "address": "2100 STANTONSBURG ROAD",
+    "city": "GREENVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "MOREHEAD MEMORIAL HOSPITAL",
+    "address": "117 EAST KINGS HWY",
+    "city": "EDEN",
+    "state": "NC"
+  },
+  {
+    "title": "ANNIE PENN HOSPITAL",
+    "address": "618 SOUTH MAIN ST.",
+    "city": "REIDSVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "RANDOLPH HOSPITAL",
+    "address": "364 WHITE OAK STREET",
+    "city": "ASHEBORO",
+    "state": "NC"
+  },
+  {
+    "title": "FIRSTHEALTH RICHMOND MEMORIAL HOSPITAL",
+    "address": "925 LONG DR",
+    "city": "ROCKINGHAM",
+    "state": "NC"
+  },
+  {
+    "title": "FIRSTHEALTH MOORE REGIONAL HOSPITAL HAMLET",
+    "address": "1000 WEST HAMLET AVENUE",
+    "city": "HAMLET",
+    "state": "NC"
+  },
+  {
+    "title": "CAROLINAS HEALTHCARE SYSTEM NORTHEAST",
+    "address": "920 CHURCH ST N",
+    "city": "CONCORD",
+    "state": "NC"
+  },
+  {
+    "title": "MEMORIAL MISSION HOSPITAL AND ASHEVILLE SURGERY CENTER",
+    "address": "509 BILTMORE AVE",
+    "city": "ASHEVILLE",
+    "state": "NC"
+  },
+  {
+    "title": "UNIVERSITY OF NORTH CAROLINA HOSPITALS",
+    "address": "101 MANNING DR",
+    "city": "CHAPEL HILL",
+    "state": "NC"
+  },
+  {
+    "title": "CAPE FEAR VALLEY HOKE HOSPITAL",
+    "address": "201 MEDICAL PAVILION DRIVE",
+    "city": "RAEFORD",
+    "state": "NC"
+  }
+]

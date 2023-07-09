@@ -11,8 +11,13 @@ const customerSchema = new Schema({
     type: String,
     required: true
   },
-  order: [orderSchema],
-  location: locationSchema
+  order: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'Order'
+    }
+  ],
+  location: {type: Schema.Types.ObjectId, ref: 'Location'}
 })
 
 const Customer = mongoose.model('Customer', customerSchema)
