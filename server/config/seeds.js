@@ -161,6 +161,16 @@ const scrapeAndSaveData = async () => {
       order.products = [...uniqueProducts]
       mockOrders.push(order)
       
+      const orderJson = JSON.stringify(mockOrders, null, 2);
+      const orderfilePath = path.join(__dirname, 'order.json');
+
+      fs.writeFile(filePath, orderJson, (err) => {
+        if (err) {
+          console.error('Error writing order file', err)
+        } else {
+          console.log('Order file written successfully', filePath)
+        }
+      })
     }
   } catch (error) {
     console.log("Error:", error);
