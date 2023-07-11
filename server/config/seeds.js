@@ -168,7 +168,7 @@ const scrapeAndSaveData = async () => {
         if (err) {
           console.error('Error writing order file', err)
         } else {
-          console.log('Order file written successfully', filePath)
+          console.log('Order file written successfully', orderfilePathPath)
         }
       })
     }
