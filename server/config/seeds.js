@@ -2,8 +2,10 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const cheerio = require("cheerio");
+const { v4: uuidv4 } = require('uuid')
+
 const db = require("./connection");
-const { Location, Product } = require("../models");
+const { Location, Product, Order } = require("../models");
 
 const scrapeAndSaveData = async () => {
   try {
@@ -135,6 +137,31 @@ const scrapeAndSaveData = async () => {
       }
     ]);
     console.log("Products seeded");
+
+    const mockOrders = [];
+    //160 is location length
+    for (let i =0; 160; i++) {
+      const order = {
+        products: [],
+        orderId: uuidv4()
+      };
+
+      //random number of products for each order between 2-10
+      const productAmount = Math.floor(Math.random() * 9) + 2;
+      console.log('productAmt', productAmount)
+
+      //random products for order
+      const uniqueProducts = new Set();
+      while (uniqueProducts.size < numProducts) {
+        const randomProducts = products[Math.floor(Math.random() * products.length)]
+        uniqueProducts.add(randomProducts)
+      }
+
+      //add the unique products to the order
+      order.products = [...uniqueProducts]
+      mockOrders.push(order)
+      
+    }
   } catch (error) {
     console.log("Error:", error);
   } finally {
